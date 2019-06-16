@@ -8,16 +8,16 @@ public class WriteData
     {
         File file = new File("writedata.txt");
 
-        if ( file.exists() ) //Daha onceden boyle bir dosya olusturulmus mu bakýyoruz. Var ise,
+        if ( file.exists() ) //Daha onceden boyle bir dosya olusturulmus mu bakÄ±yoruz. Var ise,
         {
             System.out.println("File already exists."); //Ekrana zaten var diyoruz.
             System.exit(1); //Ve cikis yapiyoruz.
         }
         
         PrintWriter pWr = new PrintWriter(file); //Olusturdugumuz dosyaya yazmaya baslayacagimizi belirtiyoruz..
-        pWr.print("Bedirhan KAPLAN "); //print ve println komutlarý ile dosyaya yazýyoruz.
+        pWr.print("Bedirhan KAPLAN "); //print ve println komutlarÄ± ile dosyaya yazÄ±yoruz.
         pWr.println(95);
-        pWr.print("Sümeyye AKAY ");
+        pWr.print("SÃ¼meyye AKAY ");
         pWr.println(96);
         pWr.close(); //Dosyaya yazmayi kapatiyoruz.
     }
