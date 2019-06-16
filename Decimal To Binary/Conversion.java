@@ -22,7 +22,6 @@ public class Conversion
 
         }
 	while(decimal > 0);
-
         System.out.print("Binary = ");
     }
 }
